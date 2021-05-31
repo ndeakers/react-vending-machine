@@ -5,6 +5,7 @@ import VendingMachine from "./VendingMachine";
 import Chips from "./Chips";
 import Gummybears from "./Gummybears";
 import Skittles from "./Skittles";
+import NavBar from "./NavBar"
 
 /** App
  * 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <NavBar />
         <Route exact path="/">
           <VendingMachine />
         </Route>

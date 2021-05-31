@@ -1,0 +1,21 @@
+.NavBar {
+    background-color: aquamarine;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.NavBar a {
+    padding: 1em 5em ;
+
+}
+
+.NavBar a:hover {
+    background-color: black;
+    color: white !important;
+  }
+
+.NavBar a.active {
+    font-weight: bold;
+    color: black;
+  }
